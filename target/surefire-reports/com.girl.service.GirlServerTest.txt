@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.girl.service.GirlServerTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.908 s <<< FAILURE! - in com.girl.service.GirlServerTest
+findById(com.girl.service.GirlServerTest)  Time elapsed: 0.01 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.girl.service.GirlServerTest.findById(GirlServerTest.java:37)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at com.girl.service.GirlServerTest.findById(GirlServerTest.java:37)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'taotao.girl' doesn't exist
+	at com.girl.service.GirlServerTest.findById(GirlServerTest.java:37)
+

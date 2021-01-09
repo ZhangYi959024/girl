@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.girl.controller.GirlControllerTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 6.196 s <<< FAILURE! - in com.girl.controller.GirlControllerTest
+findById(com.girl.controller.GirlControllerTest)  Time elapsed: 0.186 s  <<< FAILURE!
+java.lang.AssertionError: Response content expected:<{"code":"0","resultMessage":"处理成功","data":{"id":37,"cupSize":"F","age":20}}> but was:<{"code":"-1","resultMessage":"系统异常","data":null}>
+	at com.girl.controller.GirlControllerTest.findById(GirlControllerTest.java:40)
+
+updateById(com.girl.controller.GirlControllerTest)  Time elapsed: 0.046 s  <<< FAILURE!
+java.lang.AssertionError: Response content expected:<{"code":"0","resultMessage":"处理成功","data":{"id":37,"cupSize":"F","age":20}}> but was:<{"code":"-1","resultMessage":"系统异常","data":null}>
+	at com.girl.controller.GirlControllerTest.updateById(GirlControllerTest.java:48)
+

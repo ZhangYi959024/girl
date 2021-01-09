@@ -1,0 +1,13 @@
+com\girl\exception\GirlException.class
+com\girl\GirlApplication.class
+com\girl\entity\Girl.class
+com\girl\controller\GirlController.class
+com\girl\enums\HttpResultEnum.class
+com\girl\handle\MyExceptionHandle.class
+com\girl\aspect\HttpGirlAspect.class
+com\girl\service\GirlServer.class
+com\girl\controller\HelloController.class
+com\girl\girlUtils\HttpResultUtil.class
+com\girl\properties\GirlProperties.class
+com\girl\result\HttpResult.class
+com\girl\repository\GirlRepository.class

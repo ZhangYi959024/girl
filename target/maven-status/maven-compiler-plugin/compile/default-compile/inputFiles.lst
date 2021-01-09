@@ -1,0 +1,13 @@
+C:\java\IdeaParentProjects\GirlProject\src\main\java\com\girl\controller\GirlController.java
+C:\java\IdeaParentProjects\GirlProject\src\main\java\com\girl\handle\MyExceptionHandle.java
+C:\java\IdeaParentProjects\GirlProject\src\main\java\com\girl\GirlApplication.java
+C:\java\IdeaParentProjects\GirlProject\src\main\java\com\girl\properties\GirlProperties.java
+C:\java\IdeaParentProjects\GirlProject\src\main\java\com\girl\enums\HttpResultEnum.java
+C:\java\IdeaParentProjects\GirlProject\src\main\java\com\girl\aspect\HttpGirlAspect.java
+C:\java\IdeaParentProjects\GirlProject\src\main\java\com\girl\girlUtils\HttpResultUtil.java
+C:\java\IdeaParentProjects\GirlProject\src\main\java\com\girl\result\HttpResult.java
+C:\java\IdeaParentProjects\GirlProject\src\main\java\com\girl\controller\HelloController.java
+C:\java\IdeaParentProjects\GirlProject\src\main\java\com\girl\repository\GirlRepository.java
+C:\java\IdeaParentProjects\GirlProject\src\main\java\com\girl\exception\GirlException.java
+C:\java\IdeaParentProjects\GirlProject\src\main\java\com\girl\entity\Girl.java
+C:\java\IdeaParentProjects\GirlProject\src\main\java\com\girl\service\GirlServer.java

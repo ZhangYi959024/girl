@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+#    driver-class-name: oracle.jdbc.OracleDriver
+    username: system
+    password: Zh959024371
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: oracle
+  freemarker:
+    cache: false
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java

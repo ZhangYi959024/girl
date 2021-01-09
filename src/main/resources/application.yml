@@ -1,0 +1,25 @@
+spring:
+  profiles:
+    active: dev
+  freemarker:
+    allow-request-override: false
+    cache: true
+    charset: UTF-8
+    check-template-location: true
+    content-type: text/html
+    suffix: .ftl
+    template-loader-path=classpath: /templates/
+  datasource:
+    url: jdbc:mysql://localhost:3306/taotao?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Zh959024371
+    jpa:
+      hibernate:
+        ddl-auto: update
+      show-sql: true
+      database: oracle
+    devtools:
+      restart:
+        enabled: true
+        additional-paths: src/main/java
